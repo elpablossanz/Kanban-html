@@ -1,0 +1,109 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-image: url(img/pradera.jpg);
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+
+.tabla{
+    margin:5px;
+    width: calc(20%-20px);
+    border-radius: 10px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.6)
+}
+.tarjeta{
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    padding: 2px;
+    height: 120px;
+}
+.tarjeta:hover{
+    background-color: rgb(23, 131, 179, 0.5); ;
+    color: rgba(240, 240, 240, 0.5);
+}
+
+ h1{
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(23, 131, 179, 0.5);  
+    border-radius: 10px;
+    display: block;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+}
+
+h2{
+    font-size: 19px;
+}
+h3{
+    padding: 3px;
+    font-size: 15px;
+    margin: 12px;
+}
+p{
+    padding: 3px;
+    margin: 12px;
+    font-size: 15px;
+}
+.tags{
+    margin-left:10px;
+}
+.fa-circle-xmark{
+    float: right;
+    color: red;
+
+}
+.front{
+    display: inline;
+    color: white;
+    background-color: lightgreen;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.back{
+    display: inline;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+}
+.device{
+    display: inline;
+    color: white;
+    background-color: coral;
+    padding: 5px;
+    border-radius: 50%;
+    width: 80px;
+}
+
+.tarjeta:hover .front{
+    color: rgb(23, 131, 179, 0.5); 
+    
+}
+.tarjeta:hover .back{
+    color: rgb(23, 131, 179, 0.5); 
+    
+}
+.tarjeta:hover .device{
+    color: rgb(23, 131, 179, 0.5); 
+    
+}
+.tarjeta:hover .fa-circle-xmark{
+    color: black; 
+    
+}
+
